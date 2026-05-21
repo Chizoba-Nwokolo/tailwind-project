@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+    --color-dark-blue: #0F172A;
+    --color-blue-shade: #152032;
+    --color-light-blue: #3B82F6;
+    --color-purple: #A855F7;
+    --color-green: #22C55E;
+}
+
+.input {
+    @apply text-white border border-white/5 h-10 px-3 outline-0 focus:border-white rounded
+}
+
+.textarea {
+    @apply  border border-white/5 px-3 outline-0 focus:border-white rounded
+}
